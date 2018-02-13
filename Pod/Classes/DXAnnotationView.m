@@ -86,12 +86,12 @@
             if (self.calloutView.isHidden) {
                 [self showCalloutView];
             } else {
-                [self hideCalloutView];
+//                [self hideCalloutView];
             }
         } else if (touch.view == self.calloutView) {
             [self showCalloutView];
         } else {
-            [self hideCalloutView];
+//            [self hideCalloutView];
         }
     }
 }
